@@ -3,7 +3,7 @@ import spacy
 from spacy import displacy
 
 # Load the model
-nlp = spacy.load(r"/home/kushal/Documents/ner_app/model/2023-02-24_model/2023-02-24_test_model/model-best/")
+nlp = spacy.load(r"./model/2023-02-24_model/2023-02-24_test_model/model-best/")
 
 # Define the Streamlit app
 def main():
